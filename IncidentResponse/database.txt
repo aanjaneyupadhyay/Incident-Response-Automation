@@ -1,0 +1,11 @@
+create database incident;
+use incident;
+
+create table register(username varchar(50) primary key,
+password varchar(50),
+contact_no varchar(20),
+email varchar(70), 
+address varchar(80));
+
+
+

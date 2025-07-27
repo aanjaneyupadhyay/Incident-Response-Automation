@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+<head>
+<title>Incident Response Automation</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<center><font size="4" color="yellow">Incident Response Automation</font></center>
+		</div>
+		<div id="slogan">
+			
+		</div>
+	</div>
+	<div id="menu">
+		<ul><center>
+	  <li><a href="{% url 'index' %}">Home</a></li>
+      <li><a href="{% url 'UserLogin' %}">User Login</a></li>
+      <li><a href="{% url 'Register' %}">New User Register Here</a></li>
+			
+		</center></ul>
+		<br class="clearfix" />
+	</div>
+	<div id="splash">
+		<img class="pic" src="{% static 'images/investor.jpg' %}" width="870" height="200" alt="" />
+	</div>
+	<br/>
+	<p align="justify"><font size="3" style="font-family: Comic Sans MS" color="black">
+		Abstract:- Incident response is the process of identifying, investigating and resolving security incidents and breaches Isolating the affected systems from further damage, minimize the damage and recover the systems.
+</p>
+
+<p align="justify"><font size="3" style="font-family: Comic Sans MS" color="black">
+		Incident response in Cyber security is a structured process an organization uses to handle a data breach or cyberattack, aiming to minimize damage and restore systems. It involves identifying an attack, containing its spread, and recovering from the incident to reduce the risk of future attacks. This process is often guided by an Incident Response Plan (IRP) that outlines procedures for different types of cyberattacks. 
+</p>
+</body>
+</html>
